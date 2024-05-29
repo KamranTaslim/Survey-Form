@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <h2>Survey Form</h2>
+      <p>
+        Feel Free to Anser the question below bases on your experience and
+        opinion.If yor are not convenient in Answering a particular Question
+        please skip It By Answering 'No'.Every Answer would be very
+        appreciated.Thank you for your Time.
+      </p>
+      <form class="form-section">
+        <label class="space-top-10" for="name">Your Name</label>
+
+        <input type="text" placeholder="Enter your name" />
+
+        <label class="space-top-10" for="name">Your Email Address</label>
+
+        <input class="space-top-10" type="email" placeholder="user@user.com" />
+
+        <label class="space-top-10" for="name">Your Phone Number</label>
+
+        <input type="number" placeholder="9999999999" />
+
+        <label class="space-top-10" for="place">Where Do You Live ?</label>
+
+        <select name="place" id="">
+          <option value="" disabled selected>Select</option>
+          <option value="andhra_pradesh">Andhra Pradesh</option>
+          <option value="arunachal_pradesh">Arunachal Pradesh</option>
+          <option value="assam">Assam</option>
+          <option value="bihar">Bihar</option>
+          <option value="chhattisgarh">Chhattisgarh</option>
+          <option value="goa">Goa</option>
+          <option value="gujarat">Gujarat</option>
+          <option value="haryana">Haryana</option>
+          <option value="himachal_pradesh">Himachal Pradesh</option>
+          <option value="jharkhand">Jharkhand</option>
+          <option value="karnataka">Karnataka</option>
+          <option value="kerala">Kerala</option>
+          <option value="madhya_pradesh">Madhya Pradesh</option>
+          <option value="maharashtra">Maharashtra</option>
+          <option value="manipur">Manipur</option>
+          <option value="meghalaya">Meghalaya</option>
+          <option value="mizoram">Mizoram</option>
+          <option value="nagaland">Nagaland</option>
+          <option value="odisha">Odisha</option>
+          <option value="punjab">Punjab</option>
+          <option value="rajasthan">Rajasthan</option>
+          <option value="sikkim">Sikkim</option>
+          <option value="tamil_nadu">Tamil Nadu</option>
+          <option value="telangana">Telangana</option>
+          <option value="tripura">Tripura</option>
+          <option value="uttar_pradesh">Uttar Pradesh</option>
+          <option value="uttarakhand">Uttarakhand</option>
+          <option value="west_bengal">West Bengal</option>
+          <option value="andaman_nicobar">Andaman and Nicobar Islands</option>
+          <option value="chandigarh">Chandigarh</option>
+          <option value="dadra_nagar_haveli">
+            Dadra and Nagar Haveli and Daman and Diu
+          </option>
+          <option value="delhi">Delhi</option>
+          <option value="lakshadweep">Lakshadweep</option>
+          <option value="puducherry">Puducherry</option>
+        </select>
+        <label class="space-top-10" for="Age">Age</label>
+        <div class="radio-main">
+          <div class="age-value">
+            <input type="radio" name="age" value="age" />
+            <label for="Age">15-20</label>
+          </div>
+          <div class="age-value">
+            <input type="radio" name="age" value="age" />
+            <label for="Age">20-30</label>
+          </div>
+          <div class="age-value">
+            <input type="radio" name="age" value="age" />
+            <label for="Age">31-40</label>
+          </div>
+          <div class="age-value">
+            <input type="radio" name="age" value="age" />
+            <label for="Age">41-50</label>
+          </div>
+          <div class="age-value">
+            <input type="radio" name="age" value="age" />
+            <label for="Age">Pefer not to say</label>
+          </div>
+        </div>
+        <label class="space-top-10" for="code"
+          >How would you rate your proficiency in coding</label
+        >
+        <div>
+          <div class="age-value">
+            <input type="radio" name="code" value="code" />
+            <label for="code">Beginner</label>
+          </div>
+          <div class="age-value">
+            <input type="radio" name="code" value="code" />
+            <label for="code">Intermediate</label>
+          </div>
+          <div class="age-value">
+            <input type="radio" name="code" value="code" />
+            <label for="code">Advance</label>
+          </div>
+        </div>
+        <div class="second">
+          <label class="space-top-10" for="code"
+            >Have You Ever Appered in any coding contest?</label
+          >
+          <div>
+            <div class="age-value">
+              <input type="radio" name="code" value="code" />
+              <label for="code">Yes</label>
+            </div>
+            <div class="age-value">
+              <input type="radio" name="code" value="code" />
+              <label for="code">No</label>
+            </div>
+          </div>
+          <label class="space-top-10 dis" for="code"
+            >Discuss what drives you passion for coding and outline your
+            aspirations in the field.</label
+          >
+          <div>
+            <textarea class="text-area" id="" rows="5" cols="5"></textarea>
+          </div>
+          <label class="space-top-10 dis" for="code"
+            >What are some of the challenges you face while coding?</label
+          >
+          <div>
+            <textarea class="text-area" id="" rows="5" cols="5"></textarea>
+          </div>
+          <label class="space-top-10 dis" for="code"
+            >Please list the Data Structures you have a strong understanding
+            of.</label
+          >
+          <div>
+            <textarea class="text-area" id="" rows="5" cols="5"></textarea>
+          </div>
+          <button class="btn">Submit Form</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
